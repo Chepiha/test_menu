@@ -1,0 +1,59 @@
+.header {
+    background: url(../img/bg.png) no-repeat;
+    background-color: #222129;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    padding: 50px 50px 0 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.close_left {
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 170px 50px 0 50px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    
+}
+
+.largeWord {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.smallWord {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+.largeWord:hover, .smallWord:hover {
+    color: chocolate;
+}
